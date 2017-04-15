@@ -14,7 +14,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-      
+    
+    
   </head>
   
   <body>
@@ -43,15 +44,46 @@
       <p> <i> An Easily Syncable Calendar About On-Campus Events! </i> </p>
     </div>
 
-    <a name="calendar"</a>
-    <div class="container-fluid" id="calendar-wrapper">
-      <div class="header"> <iframe class="frame" src="https://calendar.google.com/calendar/embed?height=1000&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=sihcispgf3k46pjviko19a1lek%40group.calendar.google.com&amp;color=%235F6B02&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="1000" height="1000" frameborder="0" scrolling="no"></iframe>     
-    </div>
+<div class="column">
+    <div class ="row">
+      <p> fake data </p>
+      <p> fake data </p>
     </div> 
-        <!-- Bootstrap Stuff (you can ignore this!) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <div class="row container-fluid" id="map-wrapper">
+      <div id='map'>
+       <iframe
+          width="600"
+          height="450"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDS09anlwcDu7-tTjAYyewR-mPlQcAeh3Q&q=Windhover,Stanford+CA" allowfullscreen>
+</iframe></div>
+</div>
+    </div>
+
+    
+
+
+
+
+<!--
+    <script>
+      // This example displays a map with the language and region set
+      // to Japan. These settings are specified in the HTML script element
+      // when loading the Google Maps JavaScript API.
+      // Setting the language shows the map in the language of your choice.
+      // Setting the region biases the geocoding results to that region.
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: {lat: 37.4241, lng: 122.1661}
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS09anlwcDu7-tTjAYyewR-mPlQcAeh3Q&callback=initMap&language=en&region=US"
+    async defer>
+    </script>
+-->
       
   </body>
 </html>
