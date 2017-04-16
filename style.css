@@ -1,15 +1,4 @@
-/*html { 
-	background: url(stanford.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}*/
 
-.navbar > .container > a{
-  padding-left:30px;
-  padding-right:30px;
-}
 
 body {
 	text-align: center;
@@ -18,18 +7,23 @@ body {
 	font-family: 'Avenir', sans-serif;
 }
 
+#title {
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.navbar > .container > a{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+
 #calendar-wrapper{
 	display:block;
-}
-
-
-#map-wrapper {
-	display:block;
-	float:right;
-}
-
-#map {
-	height:600px;
 }
 
 #header-img {
@@ -50,20 +44,38 @@ body {
 	top: 150px;
 }
 
+.flex-container{
+	padding: 50px 50px 50px 50px;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction:row;
+}
+
+.flex-item{
+	width:50%;
+	height:50%;
+	padding:10px;
+}
+
+.event-list{
+	padding:50px 50px 50px 50px;
+}
+
+#map-wrapper {
+	display:block;
+	float:right;
+}
+
+#map {
+	height:600px;
+}
+
+#about-container{
+	padding-top: 175px;
+}
+
 .btn {
 	background-color: #FFB90F;/
 	color: white;
 	
 }
-
-.header {
-	height: 200px;
-	width: 100%;
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-
